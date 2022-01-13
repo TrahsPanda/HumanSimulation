@@ -1,0 +1,16 @@
+C:\Users\zupdi\source\repos\HumanSimulation\bin\Debug\net5.0\Simulation.exe
+C:\Users\zupdi\source\repos\HumanSimulation\bin\Debug\net5.0\Simulation.deps.json
+C:\Users\zupdi\source\repos\HumanSimulation\bin\Debug\net5.0\Simulation.runtimeconfig.json
+C:\Users\zupdi\source\repos\HumanSimulation\bin\Debug\net5.0\Simulation.runtimeconfig.dev.json
+C:\Users\zupdi\source\repos\HumanSimulation\bin\Debug\net5.0\Simulation.dll
+C:\Users\zupdi\source\repos\HumanSimulation\bin\Debug\net5.0\ref\Simulation.dll
+C:\Users\zupdi\source\repos\HumanSimulation\bin\Debug\net5.0\Simulation.pdb
+C:\Users\zupdi\source\repos\HumanSimulation\obj\Debug\net5.0\Simulation.csproj.AssemblyReference.cache
+C:\Users\zupdi\source\repos\HumanSimulation\obj\Debug\net5.0\Simulation.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\zupdi\source\repos\HumanSimulation\obj\Debug\net5.0\Simulation.AssemblyInfoInputs.cache
+C:\Users\zupdi\source\repos\HumanSimulation\obj\Debug\net5.0\Simulation.AssemblyInfo.cs
+C:\Users\zupdi\source\repos\HumanSimulation\obj\Debug\net5.0\Simulation.csproj.CoreCompileInputs.cache
+C:\Users\zupdi\source\repos\HumanSimulation\obj\Debug\net5.0\Simulation.dll
+C:\Users\zupdi\source\repos\HumanSimulation\obj\Debug\net5.0\ref\Simulation.dll
+C:\Users\zupdi\source\repos\HumanSimulation\obj\Debug\net5.0\Simulation.pdb
+C:\Users\zupdi\source\repos\HumanSimulation\obj\Debug\net5.0\Simulation.genruntimeconfig.cache
