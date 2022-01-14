@@ -7,10 +7,10 @@ using Simulation;
 
 namespace Simulation
 {
-    public class ConsoleReadWrite
+    public static class Program
     {
-        public int yearInput;
-        public long humanStat;
+        public static int yearInput;
+        public static long humanStat;
 
         public static void Main(string[] args)
         {

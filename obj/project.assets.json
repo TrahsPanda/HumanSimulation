@@ -1,38 +1,38 @@
 {
   "version": 3,
   "targets": {
-    "net5.0": {}
+    "net6.0": {}
   },
   "libraries": {},
   "projectFileDependencyGroups": {
-    "net5.0": []
+    "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\zupdi\\.nuget\\packages\\": {}
+    "C:\\Users\\Evelyn\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\zupdi\\source\\repos\\HumanSimulation\\Simulation.csproj",
+      "projectUniqueName": "C:\\Users\\Evelyn\\Source\\Repos\\HumanSimulation\\Simulation.csproj",
       "projectName": "Simulation",
-      "projectPath": "C:\\Users\\zupdi\\source\\repos\\HumanSimulation\\Simulation.csproj",
-      "packagesPath": "C:\\Users\\zupdi\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\zupdi\\source\\repos\\HumanSimulation\\obj\\",
+      "projectPath": "C:\\Users\\Evelyn\\Source\\Repos\\HumanSimulation\\Simulation.csproj",
+      "packagesPath": "C:\\Users\\Evelyn\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Evelyn\\Source\\Repos\\HumanSimulation\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\zupdi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Evelyn\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
-        "net5.0"
+        "net6.0"
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "net5.0": {
-          "targetAlias": "net5.0",
+        "net6.0": {
+          "targetAlias": "net6.0",
           "projectReferences": {}
         }
       },
@@ -43,8 +43,8 @@
       }
     },
     "frameworks": {
-      "net5.0": {
-        "targetAlias": "net5.0",
+      "net6.0": {
+        "targetAlias": "net6.0",
         "imports": [
           "net461",
           "net462",
@@ -60,7 +60,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }

@@ -10,9 +10,8 @@ namespace Simulation
         public int babyDeathStat;
         public int twinStat;
         public int currentlyPregnant;
-        public static void PregnancyClass(string[] args)
+        public Pregnancy()
         {
-            ConsoleReadWrite consoleReadWrite = new ConsoleReadWrite();
             Random random = new Random();
             int year = 1;
             int pregnancyStat = 0;
@@ -20,14 +19,14 @@ namespace Simulation
             int twinStat = 0;
             int currentlyPregnant = 0;
 
-            while (year <= consoleReadWrite.yearInput)
+            while (year <= Program.yearInput)
             {
 
                 // REPRODUCTION
-                if (consoleReadWrite.humanStat > 1)
+                if (Program.humanStat > 1)
                 {
                     // humanCouple represnts every human coming together as a couple
-                    long humanCouple = consoleReadWrite.humanStat / 2;
+                    long humanCouple = Program.humanStat / 2;
                     for (int x = 0; x < humanCouple; x++)
                     {
                         // This if statement checks if all criteria is met to breed
@@ -56,7 +55,7 @@ namespace Simulation
                                     currentlyPregnant--;
                                 }
                             }
-                            consoleReadWrite.humanStat += currentlyPregnant;
+                            Program.humanStat += currentlyPregnant;
                             currentlyPregnant = 0;
                         }
                     }
