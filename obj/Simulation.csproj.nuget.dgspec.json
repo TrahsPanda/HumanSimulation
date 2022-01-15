@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Evelyn\\Source\\Repos\\HumanSimulation\\Simulation.csproj": {}
+    "C:\\Users\\zupdi\\source\\repos\\HumanSimulation\\Simulation.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Evelyn\\Source\\Repos\\HumanSimulation\\Simulation.csproj": {
+    "C:\\Users\\zupdi\\source\\repos\\HumanSimulation\\Simulation.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Evelyn\\Source\\Repos\\HumanSimulation\\Simulation.csproj",
+        "projectUniqueName": "C:\\Users\\zupdi\\source\\repos\\HumanSimulation\\Simulation.csproj",
         "projectName": "Simulation",
-        "projectPath": "C:\\Users\\Evelyn\\Source\\Repos\\HumanSimulation\\Simulation.csproj",
-        "packagesPath": "C:\\Users\\Evelyn\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Evelyn\\Source\\Repos\\HumanSimulation\\obj\\",
+        "projectPath": "C:\\Users\\zupdi\\source\\repos\\HumanSimulation\\Simulation.csproj",
+        "packagesPath": "C:\\Users\\zupdi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\zupdi\\source\\repos\\HumanSimulation\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Evelyn\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\zupdi\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -54,7 +54,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }

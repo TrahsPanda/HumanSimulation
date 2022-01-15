@@ -35,7 +35,7 @@ namespace Simulation
                             // Twins and solo pregnancies
                             if (random.NextDouble() < 0.004)
                             {
-                                currentlyPregnant += currentlyPregnant + 2;
+                                currentlyPregnant += 2;
                                 pregnancyStat++;
                                 twinStat++;
                             }

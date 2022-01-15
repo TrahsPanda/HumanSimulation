@@ -22,14 +22,16 @@ namespace Simulation
             int yearInput = Int32.Parse(Console.ReadLine());
 
             while (pregnancy.year <= yearInput)
-            // Prints current year's stats
-            Console.WriteLine("\nYEAR " + pregnancy.year);
-            Console.Write("POPULATION: ");
-            Console.WriteLine(humanStat.ToString("N0"));
-            Console.Write("BIRTHS: ");
-            Console.WriteLine(pregnancy.pregnancyStat.ToString("N0"));
-            Console.Write("DEATHS: ");
-            Console.WriteLine(pregnancy.babyDeathStat.ToString("N0"));
+            {
+                // Prints current year's stats
+                Console.WriteLine("\nYEAR " + pregnancy.year);
+                Console.Write("POPULATION: ");
+                Console.WriteLine(humanStat.ToString("N0"));
+                Console.Write("BIRTHS: ");
+                Console.WriteLine(pregnancy.pregnancyStat.ToString("N0"));
+                Console.Write("DEATHS: ");
+                Console.WriteLine(pregnancy.babyDeathStat.ToString("N0"));
+            }
         }
     }
 }
