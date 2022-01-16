@@ -37,7 +37,7 @@ namespace Simulation
         public Human()
         {
             name = "Human " + ID;
-            age = 0;
+            age = 1;
             gender = _gender;
         }
 

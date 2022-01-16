@@ -30,15 +30,25 @@ namespace Simulation
         }
         public static void SimulateYear()
         {
+            if (aliveHumans.Count == 0)
+            {
+                foreach (Human humanDead in deadHumans)
+                {
+                    Console.WriteLine(humanDead.name);
+                }
+                Console.WriteLine("Everyone is dead.");
+                return;
+            }
             Console.WriteLine("\nYEAR " + currentYear);
-            foreach (Human human in aliveHumans)
+            foreach (Human human in aliveHumans) // EXCEPTION
             {
 
                 // Aging will be the last thing the simulation does
                 if (human.age > 100)
                 {
-                    deadHumans.Add(human);
-                    aliveHumans.Remove(human);
+                    var humanToMove = human;
+                    aliveHumans.Remove(humanToMove);
+                    deadHumans.Add(humanToMove);
                 }
                 Console.WriteLine(human.age); //Testing
                 human.age++;
