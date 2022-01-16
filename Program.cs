@@ -9,6 +9,7 @@ namespace Simulation
     class Program
     {
         static List<Human> aliveHumans = new List<Human>();
+        static List<Human> deadHumans = new List<Human>();
         public static int currentYear = 1;
         public static void Main(String[] args)
         {
@@ -21,7 +22,7 @@ namespace Simulation
                 aliveHumans.Add(new Human());
             }
 
-            while (currentYear < yearGoal)
+            while (currentYear <= yearGoal)
             {
                 SimulateYear();
                 currentYear++;
@@ -29,8 +30,17 @@ namespace Simulation
         }
         public static void SimulateYear()
         {
+            Console.WriteLine("\nYEAR " + currentYear);
             foreach (Human human in aliveHumans)
             {
+
+                // Aging will be the last thing the simulation does
+                if (human.age > 100)
+                {
+                    deadHumans.Add(human);
+                    aliveHumans.Remove(human);
+                }
+                Console.WriteLine(human.age); //Testing
                 human.age++;
             }
         }
