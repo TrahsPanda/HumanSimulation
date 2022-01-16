@@ -8,6 +8,7 @@ namespace Simulation
 {
     class Program
     {
+        static List<Human> aliveHumans = new List<Human>();
         public static int currentYear = 1;
         public static void Main(String[] args)
         {
@@ -15,7 +16,6 @@ namespace Simulation
             int humansAtStart = Int32.Parse(Console.ReadLine());
             Console.WriteLine("\nPlease enter how many years you would like the Simulation to run:");
             int yearGoal = Int32.Parse(Console.ReadLine());
-            List<Human> aliveHumans = new List<Human>();
             for (int i = 0; i < humansAtStart; i++)
             {
                 aliveHumans.Add(new Human());
@@ -29,10 +29,8 @@ namespace Simulation
         }
         public static void SimulateYear()
         {
-            foreach (Human human in aliveHumans) //CS0103 - No idea how to fix as aliveHumans is a List
+            foreach (Human human in aliveHumans)
             {
-                Console.WriteLine(human.name);
-                Console.WriteLine(human.age);
                 human.age++;
             }
         }
