@@ -29,7 +29,8 @@ namespace Simulation
 
             foreach (Human human in aliveHumans)
             {
-
+                Console.WriteLine(human.name);
+                Console.WriteLine(human.age);
             }
         }
     }
