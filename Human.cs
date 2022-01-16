@@ -10,9 +10,20 @@ namespace Simulation
     class Human
     {
         internal static ulong nextID = 1;
-        public static ulong ID = nextID++;
+        public ulong ID = nextID++;
 
-        public string Name = "Human " + nextID;
+        internal static int nextAge = 0;
+        public int age = nextAge++;
+
+        public string name;
+
+
+        public Human()
+        {
+            name = "Human " + ID;
+            age = 0;
+        }
+
     }
 
 }
