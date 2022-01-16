@@ -12,8 +12,7 @@ namespace Simulation
         internal static ulong nextID = 1;
         public ulong ID = nextID++;
 
-        internal static int nextAge = 0;
-        public int age = nextAge++;
+        public int age = 0;
 
         public string name;
 
