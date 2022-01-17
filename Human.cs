@@ -23,13 +23,15 @@ namespace Simulation
             Male = 0,
             Female = 1,
             //NonBinary = 2,
+            //GenderFluid = 3,
+            //CowGender = 8,
         }
         // What every Human is
         public Human()
         {
             name = "Human " + ID;
             age = 1;
-            Genders gender; // gender Declared but never used
+            Genders gender; // Warning can be safely ignored; Still functions properly
         }
 
     }
