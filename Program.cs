@@ -34,6 +34,7 @@ namespace Simulation
             Console.WriteLine("\nYEAR " + currentYear);
             foreach (Human human in aliveHumans)
             {
+                // REPRODUCTION
 
                 // Aging will be the last thing the simulation does to humans
                 if (human.age >= 100)

@@ -1,0 +1,17 @@
+﻿https://www.ndtv.com/health/world-population-day-how-many-children-can-a-woman-safely-deliver-1723242
+Women start menstruating at age 13 and continues until age 51 which gives 38 years of reproduction.
+
+"...after the third childbirth, a woman's arteries thicken and the blood pumping increases by more than 50%, doubling the risk of a heart attack."
+For the sake of the simulation, the chance of a woman agreeing to having more than three children will be significantly lowered, and if agreed to the chance of death from the mother and child will significantly higher. Never a 100% "No." though.
+
+https://www.betterhealth.vic.gov.au/health/conditionsandtreatments/age-and-fertility#mens-age-and-fertility
+Men aged 40 and higher will never try to reproduce.
+
+I did some research during the 1.0 phase of this application, and I found out that there is a roughly:
+1% chance of stillbirth
+4% chance of neonatal
+10%-20% chance of miscarriage
+Which leads to a roughly 15%-25% chance of baby death... Using modern methods.
+https://www.statista.com/statistics/1041693/united-states-all-time-child-mortality-rate/
+In the 1800s, 45% of babies died. It is very safe to assume given the curve from 1800 to 1850 that about 50% of babies would die without proper technology.
+Once a generic "technology" value is added to the simulation, it'll have an effect on birth mortality.
