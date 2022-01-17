@@ -22,7 +22,7 @@ namespace Simulation
         {
             Male = 0,
             Female = 1,
-            //NonBinary = 3,
+            //NonBinary = 2,
         }
         // What every Human is
         public Human()
