@@ -14,6 +14,7 @@ namespace Simulation
         static List<Human> maleHumans = new List<Human>();
         static List<Human> femaleHumans = new List<Human>();
         public static int currentYear = 1;
+        public static bool specialNames = true;
         public static void Main(String[] args)
         {
             Console.WriteLine("Welcome to TrahsPanda's NEW AND IMPROVED Human Simulation!\n\nPlease enter the amount of Humans you would like to start with:");
@@ -21,9 +22,7 @@ namespace Simulation
             Console.WriteLine("\nPlease enter how many years you would like the Simulation to run:");
             int yearGoal = Int32.Parse(Console.ReadLine());
             for (int i = 0; i < humansAtStart; i++)
-            {
                 aliveHumans.Add(new Human());
-            }
 
             while (currentYear <= yearGoal)
             {
@@ -36,17 +35,26 @@ namespace Simulation
             Console.WriteLine("\nYEAR " + currentYear);
             foreach (Human human in aliveHumans)
             {
-                // REPRODUCTION
-                if (human.gender = Human.Genders.Male) // Cannot convert type to bool
+                // SPECIAL NAME ASSIGNMENT - Should only happen once
+                if (human.name == "Human 8" && specialNames == true)
                 {
-
+                    human.name = "Evelyn";
+                    human.gender = Human.Genders.Female; // CowGender once implemented
+                    Console.WriteLine("The Cow Queen is born");
                 }
+                specialNames = false;
+
+                // REPRODUCTION
+                if (human.gender == Human.Genders.Male && human.age > 13)
+                    maleHumans.Add(human);
+                else if (human.gender == Human.Genders.Female && human.age > 13)
+                    femaleHumans.Add(human);
+
+
 
                 // Aging will be the last thing the simulation does to humans
                 if (human.age >= 100)
-                {
                     humansToKill.Add(human);
-                }
                 human.age++;
             }
 
