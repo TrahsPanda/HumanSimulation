@@ -35,21 +35,19 @@ namespace Simulation
             foreach (Human human in aliveHumans)
             {
 
-                // Aging will be the last thing the simulation does
-                if (human.age > 100)
+                // Aging will be the last thing the simulation does to humans
+                if (human.age >= 100)
                 {
-                    var humanToMove = human;
-                    humansToKill.Add(humanToMove);
+                    humansToKill.Add(human);
                 }
-                Console.WriteLine(human.age); //Testing
                 human.age++;
+            }
 
-                foreach (Human humanToKill in humansToKill)
-                {
-                    var humanToMove = human;
-                    aliveHumans.Remove(humanToMove);
-                    deadHumans.Add(humanToMove);
-                }
+            // Safetly moves all humans that will die into a deadHumans list - FINAL STEP
+            foreach (Human human in humansToKill)
+            {
+                aliveHumans.Remove(human);
+                deadHumans.Add(human);
             }
             humansToKill.Clear();
         }

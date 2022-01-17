@@ -31,8 +31,6 @@ namespace Simulation
             }
 
         }
-
-
         // What every Human is
         public Human()
         {
