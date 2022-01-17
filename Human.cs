@@ -31,7 +31,6 @@ namespace Simulation
         {
             name = "Human " + ID;
             age = 1;
-            Genders gender; // Warning can be safely ignored; Still functions properly
         }
 
     }

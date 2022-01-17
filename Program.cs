@@ -11,6 +11,8 @@ namespace Simulation
         static List<Human> aliveHumans = new List<Human>();
         static List<Human> humansToKill = new List<Human>();
         static List<Human> deadHumans = new List<Human>();
+        static List<Human> maleHumans = new List<Human>();
+        static List<Human> femaleHumans = new List<Human>();
         public static int currentYear = 1;
         public static void Main(String[] args)
         {
@@ -35,6 +37,10 @@ namespace Simulation
             foreach (Human human in aliveHumans)
             {
                 // REPRODUCTION
+                if (human.gender = Human.Genders.Male) // Cannot convert type to bool
+                {
+
+                }
 
                 // Aging will be the last thing the simulation does to humans
                 if (human.age >= 100)
