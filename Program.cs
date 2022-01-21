@@ -40,16 +40,14 @@ namespace Simulation
                 {
                     human.name = "Evelyn";
                     human.gender = Human.Genders.Female; // CowGender once implemented
-                    Console.WriteLine("The Cow Queen is born");
                 }
                 specialNames = false;
 
                 // REPRODUCTION
-                if (human.gender == Human.Genders.Male && human.age > 13)
+                if (human.gender == Human.Genders.Male && human.age > 13 && human.age < 40)
                     maleHumans.Add(human);
-                else if (human.gender == Human.Genders.Female && human.age > 13)
+                else if (human.gender == Human.Genders.Female && human.age > 13 && human.age < 51)
                     femaleHumans.Add(human);
-
 
 
                 // Aging will be the last thing the simulation does to humans
